@@ -1,0 +1,246 @@
+body{
+  background: linear-gradient(rgb(0, 0, 0) 0%, rgb(241, 7, 7) 100%); /*Fondo con degradado lineal*/
+  height: 1000vh; /*Altura del fondo*/}
+header {
+    background: rgba(0, 0, 0, 0.582);
+    width: 40%;
+    height: 100px;
+    position: fixed; left: 850px;
+    z-index: 100;
+    
+  }
+
+  nav {
+    float: right;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+  }
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #cb4335;
+  }
+  .outside{ /*DIV EXTERIOR*/
+    height: 250px; width: 500px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    p{color:#ffffff;}/*color del texto exterior*/
+  }
+    
+  .Anuel1{
+    position: relative; left: 550px; bottom: 200px;
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+
+  }
+
+  p{border:1px, solid;} /*Borde del texto (está para apreciar el padding mejor*/
+  
+  .Anuel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .Inicios{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 154px;
+  }
+
+  .Carrera{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 154px;
+  }
+  
+  .Colaboraciones{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 454px;
+  }
+
+  .Estilo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 357px;
+  }
+
+  
+  .Vida{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 530px;
+  }
+
+  .Legado{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 490px;
+  }
+    
+  .Anuel AA{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 154px;
+
+  }
+
+  .Trap{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 154px;
+  }
+
+  .Exito{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 154px;
+
+  }
+
+  .Albumes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 457px;
+  }
+
+  .Polemicas{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 357px;
+  }
+
+  .Personal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; left: 550px; bottom: 530px;
+  }
+
+  .Considerado{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 490px;
+  }
+
+  .Reebok{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 80px;
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+  }
+
+  .Negrita{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .Reebok1{
+    height: 250px; width: 500px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    p{color:rgb(255, 255, 255);}
+}
+  .Reebok2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 140px;
+  }
+
+  .video{
+    position: relative; bottom: 600px; left: 500px;
+    height: 370px; width: 700px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+  }
+
+  .Discos{
+    height: 250px; width: 500px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; bottom: 520px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .on{
+    height: 250px; width: 500px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; bottom: 800px;
+  }
+
+  .real{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left: 500px; bottom: 585px;
+  }
+
+  .emma{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left: 770px; bottom: 930px;
+  }
+  
+  .llnm{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left: 610px; bottom: 1355px;
+  }
+
+  .dioses{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left: 1040px; bottom: 1275px;
+  }
+
+  .llnm2{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left: 880px; bottom: 1699px;
+  }
+  
+  .anu{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; left:750px; bottom: 1775px;
+  }
+
+  .luces{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; bottom:480px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .luces1{
+    height: 250px; width: 500px; /*altura y anchura del div exterior*/
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; bottom:540px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .nuevo{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; bottom:20px; right: 70px;
+  }
+
+  .manuel{
+    padding: 20px;/*espaciado entre el borde y el texto exterior*/
+    margin: 25px;/*margen entre el div exterior y el body*/
+    position: relative; bottom:780px; left: 470px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+ 
+  .doble{
+    position: relative; bottom:930px; left: 470px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.color{
+  color: #ffffff;
+}
+ 
+.figura{
+  width: 100px;
+    height:  100px;
+    background: rgb(123, 124, 124);
+    position: relative; bottom: 1500px; left: 1140px;
+}

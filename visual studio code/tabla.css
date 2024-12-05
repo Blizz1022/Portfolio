@@ -1,0 +1,53 @@
+/* Estilo general del cuerpo */
+/* Estilo general del cuerpo */
+body {
+    background-color: #2c3e50; /* Color de fondo oscuro */
+    font-family: Arial, sans-serif; /* Fuente de la tabla */
+}
+
+/* Estilo del título */
+h1 {
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 0 auto; /* Centrar la tabla */
+}
+
+/* Estilo de las celdas del encabezado */
+th {
+    background-color: #3498db; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    border: 1px solid #2980b9; /* Borde del encabezado */
+}
+
+/* Estilo de las celdas del cuerpo */
+td {
+    background-color: #ecf0f1; /* Color de fondo de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    border: 1px solid #bdc3c7; /* Borde de las celdas */
+}
+
+/* Efecto hover para las filas */
+tbody tr:hover {
+    background-color: #95a5a6; /* Color de fondo al pasar el mouse */
+    color: rgb(241, 53, 53); /* Color del texto al pasar el mouse */
+}
+
+/* Alternar color de filas */
+tbody tr:nth-child(even) {
+    background-color: #dfe6e9; /* Color de fondo para filas pares */
+}
+
+/* Estilo adicional para mejorar la legibilidad */
+tbody tr td {
+    font-size: 16px; /* Tamaño de fuente */
+}
